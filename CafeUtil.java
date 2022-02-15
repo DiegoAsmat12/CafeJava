@@ -27,7 +27,7 @@ public class CafeUtil{
     }
 
     public void addCustomer ( ArrayList<String> costumers ){
-        
+        //Al Tratar de colocar System.Console().readLine() retorna nulo defrente y genera excepción
         BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
         String nombreUsuario = "";
         try {
@@ -45,4 +45,6 @@ public class CafeUtil{
             System.out.println(costumer);
         }
     }
+
+    
 }
